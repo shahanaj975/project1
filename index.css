@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1195616529/vector/white-studio-background-vector-template.jpg?s=612x612&w=0&k=20&c=tJvHZRmJxzIiQFio5b2vUgrooArpN8Q7xi-yYkLOWzk=);
+     background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.top{
+    text-align: center;
+    background-color: red;
+    opacity: 60%;
+    
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 180px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: o;
+}
