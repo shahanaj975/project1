@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css"
+</head>
+<body>
+    <form>
+        <label for="">Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <label for="">Email</label>
+        <input type="email" name="email" placeholder="eg:abc123@gmail.com">
+        <label for="">Phone number</label>
+        <input type="tel" name="ph" placeholder="Enter phone number">
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="Prefer no to say">Prefer not to say <br><br>
+
+        <label for="">Skills</label>
+        <input type="checkbox" name="skills" value="python">Python
+        <input type="checkbox" name="skills" value="html">Html
+        <input type="checkbox" name="skills" value="Django">Django
+    
+        <select name="country" id="">
+            <option value="india">India</option>
+            <option value="china">China</option>
+            <option value="uae">Uae</option>
+            <option value="punjab">Punjab</option>
+        </select>
+
+        <label for="">DOB</label>
+        <input type="date" name="date">
+
+      <label for="">Messege</label>
+      <textarea name="messsege" id="">
+
+      </textarea>
+      <label for="">Number</label>
+      <input type="number" name="number">
+
+      <label for="">Photo</label>
+      <input type="file" name="photo">
+      <button class="submit"> SUBMIT</button>
+      <button class="reset">RESET</button>
+    </form>
+</body>
+</html>
